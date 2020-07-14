@@ -1,0 +1,13 @@
+<html>
+<body>
+  <h4>Two Field Data Query</h4>
+  <form action="queryMyDatabase.php" method="post">
+    <!-- HTML field names must match post variable names that have [] around them in PHP script -->
+    <!-- size should be equal or less than database field varchar(size) for our purposes -->
+    <!-- maxlength should be equal or less than database field varchar(size) -->
+    First Name: <input name="dataItem1" type="text" size="30" maxlength="30"><br><br>
+    Last Name: <input name="dataItem2" type="text" size="30" maxlength="30"><br><br>
+    <input value="Go"  type="submit">
+  </form>
+</body>
+</html>
